@@ -8,20 +8,19 @@ If United Energy is not your electricity distributor then this will be of no use
 
 The component will only retrieve Yesterdays usage, which will also retrieve the previous days if you wish do do some other comparisions. It could easily be extended to retrieve weekly, monthly or seasonal figures as well. (I haven't got that far yet)
 
-The component is based on an older version of the [mvandersteen/ha-jemenaoutlook](https://github.com/mvandersteen/ha-jemenaoutlook) energy sensor. Thank you to the writer of that component it helpd a lot.
+The component is based on an older version of the [mlevit/HomeAssistant_EnergyEasy](https://github.com/mlevit/HomeAssistant_EnergyEasy) energy sensor.  Thank you to the writer of that component it helpd a lot.
 
 This component is not endorsed by United Energy, nor have a I asked for their endorsement.
 
 ## Installing the component
 
-Copy the included file 'jemenaoutlook.py' to the sensor directory within custom_components directory where the configuration for your installation of home assistant sits. The custom_components directory does not exist in default installation state will will need to be created if it does not already exist.
+Copy the included files directory "energyeasy" within "custom_components" directory where the configuration for your installation of home assistant sits. The custom_components directory does not exist in default installation state will will need to be created if it does not already exist.
 
 ```
-<homeassistant-user-configuration-directory>/custom_components/sensor/energyeasy.py
-```
-For me this is :-
-```
-/home/ha/.homeassistant/custom_components/sensor/energyeasy.py
+<homeassistant-user-configuration-directory>/custom_components/easyenergy/__init__.py
+<homeassistant-user-configuration-directory>/custom_components/easyenergy/manifest.json
+<homeassistant-user-configuration-directory>/custom_components/easyenergy/sensor.py
+
 ```
 
 ## Configuring the sensor
