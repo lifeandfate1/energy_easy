@@ -173,7 +173,7 @@ class EnergyEasySensor(Entity):
 
         _LOGGER.info('init data: %s', energyeasy_data.data)
 
-        if self.type in self.energyeasy_data.data is not None:
+        if self.type in self.energyeasy_data.data and self.energyeasy_data.data[self.type] is not None:
             if type(self.energyeasy_data.data[self.type]) == type(''):
                 self._state = self.energyeasy_data.data[self.type]
             else:
