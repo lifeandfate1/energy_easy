@@ -1,6 +1,6 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
 
-# EnergyEasy
+# Energy Easy
 
 This is a [Home Assistant](https://home-assistant.io) sensor component to retrieve information from the [Energy Easy](https://energyeasy.ue.com.au/) website, they are an electricity distributor within Victoria, Australia.
 
