@@ -1,7 +1,7 @@
 {
   "domain": "energyeasy",
   "name": "Energy Easy",
-  "config_flow": false,
+  "config_flow": true,
   "documentation": "https://github.com/lifeandfate1/Energy_Easy/",
   "issue_tracker": "https://github.com/lifeandfate1/Energy_Easy/issues",
   "requirements": [],
