@@ -1,8 +1,12 @@
 {
   "domain": "energyeasy",
   "name": "EnergyEasy",
-  "documentation": "https://github.com/mlevit/HomeAssistant_EnergyEasy",
+  "config_flow": false,
+  "documentation": "https://github.com/lifeandfate1/Energy_Easy/",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
   "dependencies": [],
-  "codeowners": ["@mlevit"],
-  "requirements": []
+  "codeowners": ["@mlevit, @lifeandfate1"]
 }
