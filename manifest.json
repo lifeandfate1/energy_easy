@@ -1,0 +1,8 @@
+{
+  "domain": "energyeasy",
+  "name": "EnergyEasy",
+  "documentation": "https://github.com/mlevit/HomeAssistant_EnergyEasy",
+  "dependencies": [],
+  "codeowners": ["@mlevit"],
+  "requirements": []
+}
